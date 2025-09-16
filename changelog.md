@@ -1,0 +1,2 @@
+- Add SkipTest in [angular.json](./frontend/angular.json#L13)
+- 
