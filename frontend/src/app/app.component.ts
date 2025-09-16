@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Greet } from '@/bridge';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +10,12 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'frontend';
+
+  greetMessage = '';
+
+  onClick(): void{
+    Greet("Angular with Wails").then((result) => {
+      this.greetMessage = result;
+    });
+  }
 }

@@ -7,7 +7,7 @@
     "frontend:install": "npm install",
     "frontend:dev:watcher": "npx ng serve",
     "frontend:dev:serverUrl": "http://localhost:4200",
-    "wailsjsdir": "./frontend",
+    "wailsjsdir": "./frontend/src/bridge",
     "Author": {
         "name": "{{.AuthorName}}",
         "email": "{{.AuthorEmail}}"
