@@ -1,5 +1,5 @@
 {
-    "name": "https://github.com/ilip/wails-template-angular",
+    "name": "wails-template-angular",
     "shortname": "angular",
     "author": "ilip",
     "description": "Build beautiful cross-platform applications using Go + Angular!",
